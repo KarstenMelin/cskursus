@@ -21,7 +21,7 @@ namespace EgenskaberGetsomMetoder
             }
         }
 
-        public class Trekant
+        public class Trekant 
         {
             public int Grundlinje { get; private set; }
             public int Højde { get; private set; }

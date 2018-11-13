@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42E87514-21A2-4ABA-991A-64BA9272C454}</ProjectGuid>
+    <ProjectGuid>{622CAF04-81BC-458B-AFF5-0A9F405BC317}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EgenskaberGetsomMetoder</RootNamespace>
-    <AssemblyName>EgenskaberGetsomMetoder</AssemblyName>
+    <RootNamespace>ArraysSimpel</RootNamespace>
+    <AssemblyName>ArraysSimpel</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITrekant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

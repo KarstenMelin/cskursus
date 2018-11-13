@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42E87514-21A2-4ABA-991A-64BA9272C454}</ProjectGuid>
+    <ProjectGuid>{5FB8B4D6-92BA-493D-973A-2DE640A8C26D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EgenskaberGetsomMetoder</RootNamespace>
-    <AssemblyName>EgenskaberGetsomMetoder</AssemblyName>
+    <RootNamespace>SamlingerSimpel</RootNamespace>
+    <AssemblyName>SamlingerSimpel</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITrekant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

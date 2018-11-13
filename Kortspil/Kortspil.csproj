@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{42E87514-21A2-4ABA-991A-64BA9272C454}</ProjectGuid>
+    <ProjectGuid>{EFBC01A7-9405-44F6-8583-A78C92957D40}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EgenskaberGetsomMetoder</RootNamespace>
-    <AssemblyName>EgenskaberGetsomMetoder</AssemblyName>
+    <RootNamespace>Kortspil</RootNamespace>
+    <AssemblyName>Kortspil</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITrekant.cs" />
+    <Compile Include="Kort.cs" />
+    <Compile Include="Kulør.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Værdi.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
